@@ -8,7 +8,7 @@
 }
 
 .menu__title {
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -38,38 +38,4 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  margin: 0 0 16px;
-  display: flex;
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
 }

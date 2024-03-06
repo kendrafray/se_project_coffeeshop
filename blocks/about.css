@@ -13,7 +13,7 @@
 
 .about {
   background-color: #0a2850;
-  padding: 119px 80px 173px 80px;
+  padding: 100px 80px 173px 80px;
   color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -37,15 +37,20 @@
 .about__content {
   max-width: 660px;
   position: relative;
+  margin-top: 19px;
 }
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
